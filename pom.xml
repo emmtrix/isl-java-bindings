@@ -15,6 +15,9 @@
     <module>bundles/com.emmtrix.isl.native.win32.x86_64</module>
     <module>bundles/com.emmtrix.isl.native.linux.x86_64</module>
     <module>bundles/com.emmtrix.isl.native.macosx.aarch64</module>
+    <module>tests/java</module>
+    <module>tests/osgi-smoke</module>
+    <module>tests/p2-e2e</module>
     <module>features/com.emmtrix.isl.feature</module>
     <module>releng/com.emmtrix.isl.site</module>
   </modules>
