@@ -32,7 +32,7 @@ jobs:
           cache: "maven"
 
       - name: Build p2 repository with Tycho
-        run: mvn -V -B -DskipTests=false clean verify
+        run: mvn -q -V -B -DskipTests=false clean verify
 
       - name: Configure GitHub Pages
         id: pages
