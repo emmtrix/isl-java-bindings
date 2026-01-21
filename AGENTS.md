@@ -75,6 +75,8 @@ Examples (expected in CI and local dev):
 - **Build native JNI library:**
   - `cmake -S native/isl-wrapper -B build/native`
   - `cmake --build build/native --config Release`
+- **Download ISL sources (optional convenience):**
+  - `bash scripts/download_isl.sh`
 - **Build all (Java + OSGi + p2):**
   - `mvn -V -B -DskipTests=false clean verify`
 - **Run Java unit tests:**
