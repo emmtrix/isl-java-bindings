@@ -4,6 +4,10 @@ Java/JNI bindings intended to make ISL functionality available to Java applicati
 
 > Note: The JNI implementation in this repository binds directly to the upstream ISL library. JNI calls use ISL APIs (e.g., `isl_ctx_alloc`, `isl_set_read_from_str`) and map ISL errors to Java exceptions. See `bundles/com.emmtrix.isl.jni/src/main/c/isl_jni.c`.
 
+## Update site
+
+The p2 update site is published at: https://emmtrix.github.io/isl-java-bindings/
+
 ## Repository structure
 
 This is a multi-module Maven/Tycho build :contentReference[oaicite:1]{index=1}:
