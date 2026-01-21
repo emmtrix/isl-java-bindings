@@ -43,7 +43,7 @@ jobs:
         run: |
           set -euo pipefail
 
-          repo_dir="repository/target/repository"
+          repo_dir="releng/com.emmtrix.isl.site/target/repository"
           if [ ! -d "${repo_dir}" ]; then
             echo "Expected p2 repository not found at ${repo_dir}." >&2
             exit 1
