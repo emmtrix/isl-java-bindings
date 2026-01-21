@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.emmtrix.isl.feature"
+      label="ISL JNI Feature"
+      version="0.1.0.qualifier"
+      provider-name="Emmtrix">
+
+   <description>
+      ISL Java API, JNI bridge, and platform-specific native fragments.
+   </description>
+
+   <plugin
+         id="com.emmtrix.isl.core"
+         version="0.1.0.qualifier"/>
+
+   <plugin
+         id="com.emmtrix.isl.jni"
+         version="0.1.0.qualifier"/>
+
+   <plugin
+         id="com.emmtrix.isl.native.win32.x86_64"
+         version="0.1.0.qualifier"
+         fragment="true"/>
+
+   <plugin
+         id="com.emmtrix.isl.native.linux.x86_64"
+         version="0.1.0.qualifier"
+         fragment="true"/>
+
+   <plugin
+         id="com.emmtrix.isl.native.macosx.aarch64"
+         version="0.1.0.qualifier"
+         fragment="true"/>
+</feature>
