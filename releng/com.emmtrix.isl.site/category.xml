@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.emmtrix.isl.feature_0.1.0.qualifier.jar"
+            id="com.emmtrix.isl.feature"
+            version="0.1.0.qualifier">
+      <category name="com.emmtrix.isl"/>
+   </feature>
+   <category-def name="com.emmtrix.isl" label="ISL JNI">
+      <description>
+         ISL Java API and native JNI fragments.
+      </description>
+   </category-def>
+</site>
