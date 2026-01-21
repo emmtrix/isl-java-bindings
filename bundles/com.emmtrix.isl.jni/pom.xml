@@ -14,4 +14,21 @@
   <artifactId>com.emmtrix.isl.jni</artifactId>
   <packaging>eclipse-plugin</packaging>
   <name>ISL JNI Bundle</name>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.felix</groupId>
+        <artifactId>maven-bundle-plugin</artifactId>
+        <version>${maven.bundle.plugin.version}</version>
+        <extensions>true</extensions>
+        <configuration>
+          <instructions>
+            <Bundle-SymbolicName>${project.artifactId}</Bundle-SymbolicName>
+            <Bundle-Version>${isl.osgi.version}</Bundle-Version>
+          </instructions>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 </project>
